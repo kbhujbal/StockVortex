@@ -1,72 +1,75 @@
-# StockVortex
+StockVortex - MERN Stock Market App 📈💹
+A modern, real-time stock market tracking and trading application built with the MERN stack.
 
-# Getting Started with Create React App
+🚀 Overview
+TickrFlow is a full-stack stock market application that allows users to:
+✅ Search for stock details by entering a ticker symbol.
+✅ View real-time stock prices and historical variations (1, 3, 6, 12 months).
+✅ Buy and sell stocks with a user-friendly trading interface.
+✅ Stay updated with the latest news related to the searched stock.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠 Tech Stack
+Frontend: React.js, Redux, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+API Integration: Alpha Vantage / Yahoo Finance / Finnhub API (for stock data & news)
+🎯 Features
+🔎 Real-time Stock Search: Enter a ticker symbol to fetch details instantly.
+📊 Historical Price Chart: Visualizes stock price changes over multiple timeframes.
+💰 Buy & Sell Functionality: Simulated trading experience with stock transactions.
+📰 Stock Market News: Displays the latest financial news about a company.
+🔐 User Authentication: Secure login/signup using JWT & bcrypt.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+📂 Installation & Setup
+Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+sh
+Copy
+Edit
+git clone https://github.com/yourusername/tickrflow.git
+cd tickrflow
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Backend:
+sh
+Copy
+Edit
+cd backend
+npm install
+Frontend:
+sh
+Copy
+Edit
+cd frontend
+npm install
+Set up environment variables:
 
-### `npm test`
+Create a .env file in the backend and add:
+sh
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+API_KEY=your_stock_market_api_key
+JWT_SECRET=your_jwt_secret
+Run the application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the backend server:
+sh
+Copy
+Edit
+cd backend
+npm start
+Start the frontend:
+sh
+Copy
+Edit
+cd frontend
+npm start
+Access the app:
 
-### `npm run build`
+Open http://localhost:3000 in your browser.
+📌 Contributing
+Feel free to fork the repo, create a feature branch, and submit a PR. Contributions are welcome!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
