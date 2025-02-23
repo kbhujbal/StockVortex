@@ -1,6 +1,3 @@
-# Create a README.md file with the provided content
-
-readme_content = """\
 # **StockVortex - MERN Stock Market App** 📈💹  
 *A modern, real-time stock market tracking and trading application built with the MERN stack.*
 
